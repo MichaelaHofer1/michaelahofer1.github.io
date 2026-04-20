@@ -20,6 +20,13 @@ header {
     width: 100%;
 }
 
+/*hidden elements: important for screenreaders, but not visible to see*/
+.hidden-for-user {
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+}
+
 /*navigation of the page, including the logo, links to the anchors and nav-bar-toggle for mobile phones*/
 nav {
     display: flex;
